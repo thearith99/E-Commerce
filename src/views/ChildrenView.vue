@@ -63,7 +63,7 @@
         </div>
         <div class="mid-menu-child-row">
           <div class="mid-menu-child-row-image">
-            <img src="../assets/Children/Fila Girls' Active T-Shirt.jpg" alt="">
+            <img src="../assets/Children/FilaGirlsActiveTShirt.jpg" alt="">
           </div>
           <div class="mid-menu-child-row-title">
             <p>Size : L</p>
@@ -72,7 +72,7 @@
         </div>
         <div class="mid-menu-child-row">
           <div class="mid-menu-child-row-image">
-            <img src="../assets/Children/Pack Easy Pull-on Shorts.jpg" alt="">
+            <img src="../assets/Children/PackEasyPullOnShorts.jpg" alt="">
           </div>
           <div class="mid-menu-child-row-title">
             <p>Size : L</p>
@@ -84,7 +84,7 @@
     <div class="mid-menu-child">
         <div class="mid-menu-child-row">
           <div class="mid-menu-child-row-image">
-            <img src="../assets/Children/SHENHE Girl's Color Block Raw Hem Jean Shorts.jpg" alt="">
+            <img src="../assets/Children/SHENHEGirlsColorBlockRawHemJeanShorts.jpg" alt="">
           </div>
           <div class="mid-menu-child-row-title">
             <p>Size : L</p>
@@ -93,7 +93,7 @@
         </div>
         <div class="mid-menu-child-row">
           <div class="mid-menu-child-row-image">
-            <img src="../assets/Children/Short Sleeve Graphic T-Shirt.jpg" alt="">
+            <img src="../assets/Children/ShortSleeveGraphicTShirt.jpg" alt="">
           </div>
           <div class="mid-menu-child-row-title">
             <p>Size : L</p>
@@ -102,7 +102,7 @@
         </div>
         <div class="mid-menu-child-row">
           <div class="mid-menu-child-row-image">
-            <img src="../assets/Children/Shoulder Hoodie Sweatshirt.jpg" alt="">
+            <img src="../assets/Children/ShoulderHoodieSweatshirt.jpg" alt="">
           </div>
           <div class="mid-menu-child-row-title">
             <p>Size : L</p>
@@ -111,7 +111,7 @@
         </div>
         <div class="mid-menu-child-row">
           <div class="mid-menu-child-row-image">
-            <img src="../assets/Children//Sleeve T-Shirt and Short Outfit.webp" alt="">
+            <img src="../assets/Children/SleeveTShirtandShortOutfit.webp" alt="">
           </div>
           <div class="mid-menu-child-row-title">
             <p>Size : L</p>
