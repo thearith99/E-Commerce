@@ -125,7 +125,7 @@
         </div>
         <div class="mid-menu-women-row">
           <div class="mid-menu-women-row-image">
-            <img src="../assets/Women/T shirt Tops Elegant.jpg" alt="">
+            <img src="../assets/Women/TshirtTopsElegant.jpg" alt="">
           </div>
           <div class="mid-menu-women-row-title">
             <p>Size : L</p>
