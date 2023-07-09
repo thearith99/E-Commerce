@@ -2,7 +2,7 @@
 <template>
   <header>
     <div class="header">
-      <h1><RouterLink to="/" class="header-item">CAMCLOTHE</RouterLink></h1>
+      <h1><RouterLink to="/" class="header-item">CAMCLOTHES</RouterLink></h1>
       <div class="nav-bar">
         <ul>
           <li><RouterLink to="/children" class="item">CHILDREN</RouterLink></li>
@@ -13,6 +13,7 @@
         <input type="text" placeholder="Search">
         <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
         <button tpye="submit" class="btn-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+        <RouterLink to="/login" class="login">Login</RouterLink>
       </div>
     </div>
   </header>
@@ -100,7 +101,7 @@ h1{
   background-color: white;
   position: absolute;
   top: 24px;
-  right: 170px;
+  right: 150px;
   cursor: pointer;
 }
 .btn-cart{
@@ -111,5 +112,12 @@ h1{
   top: 18px;
   right: 100px;
   cursor: pointer;
+}
+.login{
+  text-decoration: none;
+  padding-left: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
+  font-weight: bold;
 }
 </style>

@@ -32,7 +32,7 @@
             </ul>
           </div>
           <div class="footer-right">
-            <h1><RouterLink to="/" class="item">ទំនាក់ទំនងមកពួកយើង</RouterLink></h1>
+            <h1><RouterLink to="/contact" class="item">ទំនាក់ទំនងមកពួកយើង</RouterLink></h1>
             <ul>
               <li><h3>017 39 22 39/096 58 21 219</h3></li>
               <li><h3>Building 422 St. 271, Phum 1, Stung Mean Chey Khan MeanChey, Phnom Penh</h3></li>
