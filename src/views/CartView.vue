@@ -268,7 +268,7 @@
                 <div v-if="currentTab === 'thankyou'" class="thankyou">
                     <div class="user">
                         <div class="user-profile">
-                            <img src="../assets/image/profile-vue.png" alt="">
+                            <!-- <img src="../assets/image/profile-vue.png" alt=""> -->
                         </div>     
                         <div class="user-name">
                             <h1>Thank you!</h1>
