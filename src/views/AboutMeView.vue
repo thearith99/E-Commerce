@@ -4,7 +4,7 @@
             <h1>ABOUT US</h1>
         </div>
         <div class="container-about-mid">
-            <h1>CAMCLOTHES</h1>
+            <h1>Welcome to CAMCLOTHES</h1>
             <p>A global platform for sell clothing, we are the go-to-place for anyone looking and shopping their clothes <br>
                 you can buy the Clothes such as, children, man, women. For quality of fabrics is soft and cool, easy to <br>
                 wear. At the CAMCLOTHES are all size, whether men's or women's clothes and children clothes too. For the <br>
@@ -12,7 +12,9 @@
 
             </p>
         </div>
-        <div class="container-about-bot"></div>
+        <div class="container-about-bot">
+            
+        </div>
     </div>
 </template>
 
@@ -24,8 +26,8 @@
     }
     .container-about{
         width: 80%;
-        height: 600px;
-        background-color: blueviolet;
+        height: 300px;
+        /* background-color: blueviolet; */
         margin: 0px auto;
         display: block;
     }

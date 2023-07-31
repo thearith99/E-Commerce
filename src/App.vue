@@ -12,7 +12,7 @@
         </ul>
         <input type="text" placeholder="Search">
         <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
-        <button tpye="submit" class="btn-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+        <RouterLink to="/cart" class="btn-cart"><i class="fa-solid fa-cart-shopping"></i></RouterLink>
         <RouterLink to="/login" class="login">Login</RouterLink>
       </div>
     </div>
@@ -109,9 +109,10 @@ h1{
   height: 40px;
   border-radius: 5px;
   position: absolute;
-  top: 18px;
-  right: 100px;
+  top: 30px;
+  right: 90px;
   cursor: pointer;
+  color: black;
 }
 .login{
   text-decoration: none;

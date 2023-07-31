@@ -1,11 +1,11 @@
 <template>
     <body>
         <div class="form">
-            <form>
+            <form @submit.prevent="login">
                 <label class="label">Email</label><br>
-                <input type="text" placeholder="Enter Email" class="input"><br>
+                <input type="text" placeholder="Enter Email" class="input" v-model="email" required id="email"><br>
                 <label class="label">Password</label><br>
-                <input type="text" placeholder="Password" class="input"><br>
+                <input type="password" placeholder="Password" class="input" v-model="password" required id="password"><br>
                 <input type="checkbox">
                 <label >Show</label>
                 <RouterLink to="/register" class="register">Create</RouterLink><br>
@@ -18,7 +18,43 @@
 
 <script>
     
-    
+export default {
+  data() {
+    return {
+      email: '',
+      password: ''
+    };
+  },
+  methods: {
+    login() {
+      // Replace the following with your actual login logic and authentication API call
+      // For demonstration purposes, we're just checking hardcoded values "admin" and "password"
+      if (this.email === 'admin' && this.password === '123') {
+        this.showSuccessAlert();
+        // Redirect to the homepage after successful login
+        this.$router.push('/children');
+      } else {
+        this.showErrorAlert();
+      }
+    },
+    showSuccessAlert() {
+      this.$swal({
+        icon: 'success',
+        title: 'Login Successful',
+        text: 'You are logged in!',
+        timer: 2000,
+        showConfirmButton: false
+      });
+    },
+    showErrorAlert() {
+      this.$swal({
+        icon: 'error',
+        title: 'Login Failed',
+        text: 'Invalid username or password'
+      });
+    }
+  }
+};  
 </script>
 
 
